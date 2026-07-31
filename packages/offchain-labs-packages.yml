@@ -1,0 +1,63 @@
+generated: '2026-07-20'
+method: searched
+source: npm registry + crates.io (author "Offchain Labs, Inc." / offchainlabs team)
+packages:
+- language: javascript
+  registry: npm
+  name: "@arbitrum/sdk"
+  version: 4.1.0
+  url: https://www.npmjs.com/package/@arbitrum/sdk
+  install: npm install @arbitrum/sdk
+  description: TypeScript library for client-side interactions with Arbitrum (bridging, messaging, retryables).
+  license: Apache-2.0
+  official: true
+- language: javascript
+  registry: npm
+  name: "@arbitrum/orbit-sdk"
+  version: 0.26.0
+  url: https://www.npmjs.com/package/@arbitrum/orbit-sdk
+  install: npm install @arbitrum/orbit-sdk
+  description: TypeScript SDK for configuring, deploying, and managing Arbitrum (Orbit) chains.
+  license: Apache-2.0
+  official: true
+- language: solidity
+  registry: npm
+  name: "@arbitrum/nitro-contracts"
+  version: 3.2.0
+  url: https://www.npmjs.com/package/@arbitrum/nitro-contracts
+  install: npm install @arbitrum/nitro-contracts
+  description: Layer 2 precompiles and rollup contracts for Arbitrum Nitro.
+  license: BUSL-1.1
+  official: true
+- language: solidity
+  registry: npm
+  name: "@arbitrum/token-bridge-contracts"
+  version: 1.2.5
+  url: https://www.npmjs.com/package/@arbitrum/token-bridge-contracts
+  install: npm install @arbitrum/token-bridge-contracts
+  description: Smart contracts for the Arbitrum token bridge.
+  license: Apache-2.0
+  official: true
+- language: rust
+  registry: crates.io
+  name: stylus-sdk
+  version: 0.10.8
+  url: https://crates.io/crates/stylus-sdk
+  install: cargo add stylus-sdk
+  description: Rust SDK for writing smart contracts with Arbitrum Stylus (WASM).
+  official: true
+- language: rust
+  registry: crates.io
+  name: cargo-stylus
+  version: 0.10.8
+  url: https://crates.io/crates/cargo-stylus
+  install: cargo install cargo-stylus
+  description: CLI tool for building, checking, and deploying Arbitrum Stylus contracts.
+  official: true
+- language: go
+  registry: pkg.go.dev
+  name: github.com/offchainlabs/nitro
+  url: https://pkg.go.dev/github.com/offchainlabs/nitro
+  install: go get github.com/offchainlabs/nitro
+  description: Arbitrum Nitro node — the Go implementation of the Arbitrum rollup stack.
+  official: true
