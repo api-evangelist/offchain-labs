@@ -85,6 +85,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Support
+  url: https://offchain.io/contact
 - type: Website
   url: https://offchain.io
 - type: Documentation
@@ -118,5 +120,3 @@ x-enrichment:
   status: enriched
   artifacts_added: 4
   pass: local-v1
-x-parent: offchain
-x-relationship: product
