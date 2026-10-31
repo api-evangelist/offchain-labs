@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Offchain Labs is a company surfaced as a portfolio company of lightspeed-venture-partners, polychain and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Offchain Labs (now operating as "Offchain") is the research-and-engineering company behind Arbitrum, one of the leading Ethereum Layer 2 scaling ecosystems, and Prysm, an Ethereum consensus client that powers a large share of the network. Its technology stack includes Arbitrum Nitro (the rollup node software), Arbitrum Stylus (a framework for writing smart contracts in Rust, C, and C++ compiled to WebAssembly), the Arbitrum Orbit / Arbitrum chains SDK for launching app-specific chains, and BoLD for permissionless dispute resolution. For developers the surface is Ethereum JSON-RPC endpoints for Arbitrum One, Nova, and Sepolia, plus first-party TypeScript, Rust, Go, and Solidity SDKs, the cargo-stylus CLI, and extensive documentation at docs.arbitrum.io.
 
-Backed by: lightspeed-venture-partners, polychain — https://offchainlabs.com
+**Areas:** Company · Blockchain · Ethereum · Layer 2 · Arbitrum · Scaling · Rollup · Smart Contracts · Web3 · JSON-RPC · Infrastructure
+
+## Offchain Labs on APIs.io
+
+Everything profiled for Offchain Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/offchain-labs/](https://apis.io/providers/offchain-labs/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Arbitrum One JSON-RPC](https://apis.io/apis/offchain-labs/arbitrum-one-json-rpc/) — Public Ethereum JSON-RPC endpoint for Arbitrum One (chain ID 42161), the flagship Arbitrum Layer 2 rollup. Supports the standard Ethereum JSON-RPC method…
+- [Arbitrum Nova JSON-RPC](https://apis.io/apis/offchain-labs/arbitrum-nova-json-rpc/) — Public Ethereum JSON-RPC endpoint for Arbitrum Nova (chain ID 42170), the AnyTrust chain optimized for low-cost, high-throughput applications.
+- [Arbitrum Sepolia JSON-RPC](https://apis.io/apis/offchain-labs/arbitrum-sepolia-json-rpc/) — Public Ethereum JSON-RPC endpoint for the Arbitrum Sepolia testnet (chain ID 421614) for development and testing.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Offchain Labs Domain Security](https://apis.io/security/offchain-labs/offchain-labs-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://offchain.io)
+- [Documentation](https://docs.arbitrum.io)
+- [Getting started](https://docs.arbitrum.io/build-decentralized-apps/quickstart-solidity-remix)
+- [API reference](https://docs.arbitrum.io/build-decentralized-apps/reference/rpc-methods)
+- [Support](https://offchain.io/contact)
+- [Blog](https://offchain.io/blog)
+- [Terms of service](https://offchain.io/tos)
+- [Privacy policy](https://offchain.io/privacy)
+- [GitHub](https://github.com/OffchainLabs)
+
+## API Evangelist rating
+
+**Kin Score 22.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/offchain-labs/](https://apis.io/providers/offchain-labs/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Offchain Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/offchain-labs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
